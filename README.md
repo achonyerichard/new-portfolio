@@ -1,4 +1,4 @@
-# My Personal Portfoilio created with reacjs and bootstrap
+# My Personal Portfoilio created with Reactjs and Bootstrap
 
 ## Description
 
