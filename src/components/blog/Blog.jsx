@@ -3,20 +3,20 @@ import Modal from "react-modal";
 
 import ModalOneBlogContent from "./modal/ModalOneBlogContent";
 import ModalTwoBlogContent from "./modal/ModalTwoBlogContent";
-import ModalThreeBlogContent from "./modal/ModalThreeBlogContent";
-import ModalFourBlogContent from "./modal/ModalFourBlogContent";
-import ModalFiveBlogContent from "./modal/ModalFiveBlogContent";
-import ModalSixBlogContent from "./modal/ModalSixBlogContent";
+// import ModalThreeBlogContent from "./modal/ModalThreeBlogContent";
+// import ModalFourBlogContent from "./modal/ModalFourBlogContent";
+// import ModalFiveBlogContent from "./modal/ModalFiveBlogContent";
+// import ModalSixBlogContent from "./modal/ModalSixBlogContent";
 
 Modal.setAppElement("#root");
 
 const Blog = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
-  const [isOpen4, setIsOpen4] = useState(false);
-  const [isOpen5, setIsOpen5] = useState(false);
-  const [isOpen6, setIsOpen6] = useState(false);
+  // const [isOpen3, setIsOpen3] = useState(false);
+  // const [isOpen4, setIsOpen4] = useState(false);
+  // const [isOpen5, setIsOpen5] = useState(false);
+  // const [isOpen6, setIsOpen6] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -24,18 +24,18 @@ const Blog = () => {
   function toggleModalTwo() {
     setIsOpen2(!isOpen2);
   }
-  function toggleModalThree() {
-    setIsOpen3(!isOpen3);
-  }
-  function toggleModalFour() {
-    setIsOpen4(!isOpen4);
-  }
-  function toggleModalFive() {
-    setIsOpen5(!isOpen5);
-  }
-  function toggleModalSix() {
-    setIsOpen6(!isOpen6);
-  }
+  // function toggleModalThree() {
+  //   setIsOpen3(!isOpen3);
+  // }
+  // function toggleModalFour() {
+  //   setIsOpen4(!isOpen4);
+  // }
+  // function toggleModalFive() {
+  //   setIsOpen5(!isOpen5);
+  // }
+  // function toggleModalSix() {
+  //   setIsOpen6(!isOpen6);
+  // }
 
   return (
     <>
