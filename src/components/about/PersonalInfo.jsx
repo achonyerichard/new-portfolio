@@ -8,9 +8,10 @@ const personalInfoContent = [
   { meta: "Freelance", metaInfo: "Available" },
 
   { meta: "phone", metaInfo: "+234 8159807048" },
+  { meta: "langages", metaInfo: " English" },
   { meta: "Email", metaInfo: "achonyerichard@gmail.com" },
 
-  { meta: "langages", metaInfo: " English" },
+
 ];
 
 const PersonalInfo = () => {

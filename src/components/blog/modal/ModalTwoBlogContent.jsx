@@ -5,8 +5,8 @@ const ModalTwoBlogContent = () => {
     //  Article Starts
     <article>
       <div className="title-section text-left text-sm-center">
-        <h1>
-          Post <span>Details</span>
+        <h1 className="text-center">
+          <span>Blog</span>
         </h1>
         <span className="title-bg">posts</span>
       </div>

@@ -1367,6 +1367,7 @@ body.light .contact .custom-span-contact a {
 
   .main-img-mobile {
     border-radius: 50%;
+    object-fit: cover;
     width: 270px;
     height: 270px;
     border: 4px solid #252525;
@@ -1637,6 +1638,8 @@ body.light .contact .custom-span-contact a {
   .main-img-mobile {
     width: 230px;
     height: 230px;
+    object-fit: cover;
+    
   }
   .title-section {
     padding-left: 15px;
@@ -1822,9 +1825,10 @@ body.light .tab-panel_list > div {
 .about-list {
   display: flex;
   flex-wrap: wrap;
+  
   li {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
