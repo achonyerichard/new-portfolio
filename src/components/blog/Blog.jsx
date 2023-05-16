@@ -167,7 +167,7 @@ const Blog = () => {
 
         {/* Start ModalTwoBlogContent */}
         <Modal
-          isOpen={isOpen2}
+          isOpen={isOpen3}
           onRequestClose={toggleModalThree}
           contentLabel="My dialog"
           className="custom-modal dark"
