@@ -6,7 +6,7 @@ const ModalThreeBlogContent = () => {
     <article>
       <div className="title-section text-left text-sm-center">
         <h1>
-          Post <span>Details</span>
+          Queen <span>Hannah</span>
         </h1>
         <span className="title-bg">Hannah 🤩</span>
       </div>
