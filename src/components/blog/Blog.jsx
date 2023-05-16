@@ -181,7 +181,7 @@ const Blog = () => {
            
 
             <div className="box_inner blog-post">
-              <ModalTwoBlogContent />
+              <ModalThreeBlogContent />
             </div>
           </div>
         </Modal>
