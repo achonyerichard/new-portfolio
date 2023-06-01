@@ -138,57 +138,6 @@ const Blog = () => {
         {/* End  ModalTwoBlogContent */}
       </div>
       {/*  Blog 2 Ends */}
-
-      {/*  Blog 3 Starts */}
-//         <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-//         <article className="post-container" onClick={toggleModalThree}>
-//           <div className="post-thumb">
-//             <div className="d-block position-relative overflow-hidden">
-//               <img
-//                 src="img/blog/blog-post-3.jpeg"
-//                 className="img-fluid"
-//                 alt="Blog Post"
-//               />
-//             </div>
-//           </div>
-          
-//           <div className="post-content">
-//             <div className="entry-header">
-//               <h3>The Tale of my Queen</h3>
-//             </div>
-//             <div className="entry-content open-sans-font">
-//               <p>
-//              If  love blows across time, my love for you shall be the wind that forever guideth me to your heart...
-//               </p>
-//             </div>
-//           </div>
-         
-//         </article>
-
-  
-//         <Modal
-//           isOpen={isOpen3}
-//           onRequestClose={toggleModalThree}
-//           contentLabel="My dialog"
-//           className="custom-modal dark"
-//           overlayClassName="custom-overlay dark"
-//           closeTimeoutMS={500}
-//         >
-//           <div>
-//             <button className="close-modal" onClick={toggleModalThree}>
-//               <img src="/img/cancel.svg" alt="close icon" />
-//             </button>
-           
-
-//             <div className="box_inner blog-post">
-//               <ModalThreeBlogContent />
-//             </div>
-//           </div>
-//         </Modal>
- 
-//       </div>
-    
-
       {/* Blog 4 Starts */}
       {/* <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalFour}>
