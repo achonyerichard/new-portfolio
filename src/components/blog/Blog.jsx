@@ -3,7 +3,7 @@ import Modal from "react-modal";
 
 import ModalOneBlogContent from "./modal/ModalOneBlogContent";
 import ModalTwoBlogContent from "./modal/ModalTwoBlogContent";
-import ModalThreeBlogContent from "./modal/ModalThreeBlogContent";
+// import ModalThreeBlogContent from "./modal/ModalThreeBlogContent";
 // import ModalFourBlogContent from "./modal/ModalFourBlogContent";
 // import ModalFiveBlogContent from "./modal/ModalFiveBlogContent";
 // import ModalSixBlogContent from "./modal/ModalSixBlogContent";
@@ -13,7 +13,7 @@ Modal.setAppElement("#root");
 const Blog = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
+//   const [isOpen3, setIsOpen3] = useState(false);
   // const [isOpen4, setIsOpen4] = useState(false);
   // const [isOpen5, setIsOpen5] = useState(false);
   // const [isOpen6, setIsOpen6] = useState(false);
@@ -24,9 +24,9 @@ const Blog = () => {
   function toggleModalTwo() {
     setIsOpen2(!isOpen2);
   }
-  function toggleModalThree() {
-   setIsOpen3(!isOpen3);
-   }
+//   function toggleModalThree() {
+//    setIsOpen3(!isOpen3);
+//    }
   // function toggleModalFour() {
   //   setIsOpen4(!isOpen4);
   // }
@@ -140,53 +140,53 @@ const Blog = () => {
       {/*  Blog 2 Ends */}
 
       {/*  Blog 3 Starts */}
-        <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-        <article className="post-container" onClick={toggleModalThree}>
-          <div className="post-thumb">
-            <div className="d-block position-relative overflow-hidden">
-              <img
-                src="img/blog/blog-post-3.jpeg"
-                className="img-fluid"
-                alt="Blog Post"
-              />
-            </div>
-          </div>
+//         <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+//         <article className="post-container" onClick={toggleModalThree}>
+//           <div className="post-thumb">
+//             <div className="d-block position-relative overflow-hidden">
+//               <img
+//                 src="img/blog/blog-post-3.jpeg"
+//                 className="img-fluid"
+//                 alt="Blog Post"
+//               />
+//             </div>
+//           </div>
           
-          <div className="post-content">
-            <div className="entry-header">
-              <h3>The Tale of my Queen</h3>
-            </div>
-            <div className="entry-content open-sans-font">
-              <p>
-             If  love blows across time, my love for you shall be the wind that forever guideth me to your heart...
-              </p>
-            </div>
-          </div>
+//           <div className="post-content">
+//             <div className="entry-header">
+//               <h3>The Tale of my Queen</h3>
+//             </div>
+//             <div className="entry-content open-sans-font">
+//               <p>
+//              If  love blows across time, my love for you shall be the wind that forever guideth me to your heart...
+//               </p>
+//             </div>
+//           </div>
          
-        </article>
+//         </article>
 
-        {/* Start ModalTwoBlogContent */}
-        <Modal
-          isOpen={isOpen3}
-          onRequestClose={toggleModalThree}
-          contentLabel="My dialog"
-          className="custom-modal dark"
-          overlayClassName="custom-overlay dark"
-          closeTimeoutMS={500}
-        >
-          <div>
-            <button className="close-modal" onClick={toggleModalThree}>
-              <img src="/img/cancel.svg" alt="close icon" />
-            </button>
+  
+//         <Modal
+//           isOpen={isOpen3}
+//           onRequestClose={toggleModalThree}
+//           contentLabel="My dialog"
+//           className="custom-modal dark"
+//           overlayClassName="custom-overlay dark"
+//           closeTimeoutMS={500}
+//         >
+//           <div>
+//             <button className="close-modal" onClick={toggleModalThree}>
+//               <img src="/img/cancel.svg" alt="close icon" />
+//             </button>
            
 
-            <div className="box_inner blog-post">
-              <ModalThreeBlogContent />
-            </div>
-          </div>
-        </Modal>
-        {/* End  ModalTwoBlogContent */}
-      </div>
+//             <div className="box_inner blog-post">
+//               <ModalThreeBlogContent />
+//             </div>
+//           </div>
+//         </Modal>
+ 
+//       </div>
       {/* Blog 3 Ends */}
 
       {/* Blog 4 Starts */}
