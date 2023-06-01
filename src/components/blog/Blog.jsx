@@ -187,7 +187,7 @@ const Blog = () => {
 //         </Modal>
  
 //       </div>
-      {/* Blog 3 Ends */}
+    
 
       {/* Blog 4 Starts */}
       {/* <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
