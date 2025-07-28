@@ -6,8 +6,8 @@ const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "Achonye Richard",
-  heroDesignation: "Frontend Web Developer",
-  heroDescriptions: `I'm a Nigerian based  front‑end developer focused on
+  heroDesignation: "Software Developer",
+  heroDescriptions: `I'm a UK based  front‑end developer focused on
   building clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
   around me.`,

@@ -1,13 +1,13 @@
 import React from "react";
 
 const skillsContent = [
-  {  heroImage: "img/hero/dark.jpg", skillName: "HTML" },
+  {  heroImage: "img/hero/dark.jpg", skillName: "EXPRESS" },
   { skillClass: "p89", skillPercent: "89", skillName: "JAVASCRIPT" },
-  { skillClass: "p70", skillPercent: "70", skillName: "CSS" },
-  { skillClass: "p66", skillPercent: "66", skillName: "NEXT" },
+  { skillClass: "p70", skillPercent: "70", skillName: "NODEJS" },
+  { skillClass: "p66", skillPercent: "66", skillName: "NEXTJS" },
   { skillClass: "p95", skillPercent: "95", skillName: "SHOPIFY" },
-  { skillClass: "p50", skillPercent: "50", skillName: "JQUERY" },
-  { skillClass: "p65", skillPercent: "65", skillName: "ALPINE JS" },
+  { skillClass: "p50", skillPercent: "50", skillName: "VUE" },
+  { skillClass: "p65", skillPercent: "65", skillName: "REACT NATIVE" },
   { skillClass: "p45", skillPercent: "45", skillName: "REACT" },
 ];
 

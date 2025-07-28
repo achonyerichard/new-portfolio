@@ -2,30 +2,23 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "June 2022 - present",
-    position: "Web Developer",
-    compnayName: "Emplug",
-    details: `Designed and implemented a micro-advertising platfrom using ReactJs on the frontend which was able to post ads with sms using third party inegrations.
-    Developed a memberhip, forum and voting poll platform with automated inernal processes.
-    Designed and developed a job application platform and optimized user experience by creating a global search which filters applicants by location and age.
-    Designed the companies landing page which included blog posts and newsletters.`,
+    year: "March 2025 - present",
+    position: "Frontend Engineer",
+    compnayName: "IQM Solutions",
+    details: `Developed comprehensive test stories using Storybook and Chromatic to ensure component functionality, visual consistency, and user experience.`,
   }
   ,
   {
-    year: "March 2022 - June 2022",
-    position: "Junior Frontend Developer",
-    compnayName: "Yoodule",
-    details: `Developed and implemented e-commerce web apps with checkout and cart functionalities using Shopify.
-    Implemented reviews by integrating review apps in Shopify and other third party Shopify integrations.
-    Developed and wrote custom scrits in Shopify to tender to customer and user needs .`,
+    year: "October 2024 - March 2025",
+    position: "Software Developer",
+    compnayName: "Miva University (ULesson)",
+    details: `•Developed and optimised an open univerisity student and admin portal , automating processes for student results and improving disbursement speed, resulting in higher client satisfaction and increased operational productivity.`,
   },
   {
-    year: " November  2021 - March 2022",
-    position: "React Web Developer ",
-    compnayName: "Loctech Appstation",
-    details: `Developed an Emloyee Management System for a freight forwarding company which help cut down company loses signnificantly.
-    Developed a school management system which handles application form data .
-    Developed User Stories using Xmind to create proper projec flow and management`,
+    year: "June 2023 – July 2024",
+    position: "Senior Software Developer",
+    compnayName: "Huiospay Finance",
+    details: `•Architected and deployed RESTful APIs for Huiospay’s digital banking system, enhancing customer experience and increasing system efficiency by 35%, enabling faster transactions and better service delivery.`,
   }
   
 ];

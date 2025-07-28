@@ -7,7 +7,7 @@ const personalInfoContent = [
   { meta: "Nationality", metaInfo: "Nigerian" },
   { meta: "Freelance", metaInfo: "Available" },
 
-  { meta: "phone", metaInfo: "+234 8159807048" },
+  { meta: "phone", metaInfo: "+44 7440769837" },
   { meta: "langages", metaInfo: " English" },
   { meta: "Email", metaInfo: "achonyerichard@gmail.com" },
 

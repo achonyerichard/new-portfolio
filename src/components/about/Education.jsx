@@ -1,6 +1,12 @@
 import React from "react";
 
 const educationContent = [
+    {
+    year: "2025",
+    degree: "MASTER DEGREE",
+    institute: "UNIVERSITY OF EAST ANGLIA",
+    details: `BUSINESS AND MANAGEMENT`,
+  },
   {
     year: "2015",
     degree: "ENGINEERING DEGREE",
