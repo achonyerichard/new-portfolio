@@ -6,7 +6,7 @@ const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "Achonye Richard",
-  heroDesignation: "Software Developer",
+  heroDesignation: "Software Developer(Starvin CEO)",
   heroDescriptions: `I'm a UK based  front‑end developer focused on
   building clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
